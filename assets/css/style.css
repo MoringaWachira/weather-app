@@ -7,11 +7,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("https://www.weather-forecast.com/system/images/4017/large/Thasos.jpg?1634306227");
     background-color: lightcyan;
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    
+    height: 100vh; */
+     */
 }
 
 .heading {
