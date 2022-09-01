@@ -1,0 +1,25 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("");
+    background-color: lightcyan;
+    background-size: contain;
+}
+
+.heading {
+    margin-left: 400px;
+    margin-top: 70px;
+}
+#text {
+    border-radius: 10px;
+    height: 35px;
+}
+#sub {
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+}
