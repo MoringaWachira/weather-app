@@ -5,19 +5,25 @@ body {
     height: 100vh;
     margin: 0; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("https://www.weather-forecast.com/system/images/4017/large/Thasos.jpg?1634306227");
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/18/04/blue-1977898_960_720.jpg");
     background-color: lightcyan;
-    /* background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh; */
-     */
+    height: 100vh;
+    
 }
 
 .heading {
     margin-left: 400px;
     margin-top: 70px;
 }
+
+.place {
+    font-size: 40px;
+}
+
+
 #text {
     border-radius: 10px;
     height: 35px;
