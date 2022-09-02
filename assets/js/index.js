@@ -1,6 +1,6 @@
 
 "apikey": "087d2d5670b960565c41ce98b2fb0cfa"
-const form = document.querySelector("form")
+const form = document.querySelector('#text');
 form.addEventListener("submit", (e)=> {
     e.preventDefault;
 //     alert("Hello")
