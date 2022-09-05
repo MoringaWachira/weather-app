@@ -1,40 +1,90 @@
 body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0; */
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("https://cdn.pixabay.com/photo/2017/01/13/18/04/blue-1977898_960_720.jpg");
-    background-color: lightcyan;
+    /* background-color: lightcyan;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
+    background-position: center; */
+    height: 90vh;
+    margin: o auto;
     
 }
 
-.heading {
-    margin-left: 400px;
+#details {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* .heading {
+    margin-left: 600px;
     margin-top: 70px;
-}
-
-.place {
     font-size: 40px;
-}
-.location {
-    font-size: 25px;
-}
+} */
 
-#text {
+/* .place {
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 650px;
+} */
+/* .location {
+    font-size: 25px;
+   margin-top: 250px;
+   margin-bottom: 300px;
+    
+} */
+
+/* #text {
     border-radius: 10px;
     height: 35px;
-    ba
-}
-#sub {
+    margin-left: 650px;
+    margin-top: 150px;
+} */
+/* #btn {
     border-radius: 10px;
     height: 35px;
     width: 100px;
     color: white;
     background-color: lightblue
+} */
+
+
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    
+    
 }
+
+#weather-details {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    
+}
+
+#submit {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

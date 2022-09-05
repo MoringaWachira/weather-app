@@ -8,19 +8,54 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div>
+    <!-- <div>
     <div class="heading">
     <h1>WEATHER APP</h1>
     </div>
     <p class="place"><span>08 <sup>o</sup> </span> <span>LONDON</span> <span>Rainy</span></p>
     <form action="">
     <!-- <p class="location">Another location</p> -->
-    <input id="text" type="text" placeholder="Enter Location" name="name">
-    <input id="sub" type="submit" value="submit">
-    </form>
+    <!-- <input id="text" type="text" placeholder="Enter Location" name="name">
+    <input id="btn" type="submit" value="submit">
+    </form> -->
     
     <!-- showing weather details -->
-    <div class="showWeatherData"></div>
+    <!-- <div class="showWeatherData"></div> --> 
+
+    <div id="container">
+        <div id="weather-website">
+        <h3 id="h3">Weather website</h3>
+        <div id="left-side">
+            <div id="details">
+                <p>15 <sup>o</sup></p>
+                <p>London <br>date</p>
+                <p>icon <br> sunny </p>
+            </div>
+        </div>
+        </div>
+        <div id="right-side">
+            <form action="">
+                <input type="text" name="search" id="seach-location" placeholder="search">
+                <input type="submit" value="submit" id="submit">
+            </form>
+            <h3>weather-details</h3>
+            <div id="weather-details">
+                <div>
+                <p>Cloudy</p>
+                <p>Humidity</p>
+                <p>Wind</p>
+            </div>
+            <div>
+
+                <p>85%</p>
+                <p>62%</p>
+                <p>8km/hr</p>
+            </div>
+
+            </div>
+        </div>
+
+    </div>
 
     <script src="./assets/js/index.js"></script>
 </div>
