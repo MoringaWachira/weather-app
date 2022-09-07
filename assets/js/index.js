@@ -116,8 +116,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // todo list
     const toDoForm = document.getElementById('tasksform')
+    toDoForm.addEventListener('submit', e => {
+        e.preventDefault()
+        addToDo(e.target.task.value)
+        toDoForm.reset()
+
+    })
 
 
+    function addToDo(task) {
+        const ul = document.getElementById('list')
+        const li = document.createElement('li')
+        if(task === ' ') {
+            return
+        }
+        li.innerText = task
+        ul.appendChild(li)
+    }
 
 })
 
