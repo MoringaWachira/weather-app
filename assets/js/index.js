@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
          })
-        //  .catch(error => error)
+         .catch(error => error)
 })
 
 
