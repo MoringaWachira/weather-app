@@ -2,7 +2,7 @@
 # Author
 Silvia Wachira
 # Description
-This is a project creating a a weather app of differennt places in the world
+This is a project creating a a weather app of differennt places in the world and allows the user to comment the activities they are interested in based on the weatger 
 # Technologies Used
 *HTML to create the page stucture<br>
 *CSS to style the page<br>
