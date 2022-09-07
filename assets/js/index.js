@@ -55,7 +55,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form')
 
-    
+    form.addEventListener ('submit', e => {
+        e.preventDefault()
+        results(e.target.city_name.value)
+        form.reset()
+    })
+
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=nairobi&appid=087d2d5670b960565c41ce98b2fb0cfa`)
+         .then(response => response.json())
+         .then(data => {
+            const city = data['name'],
+            temperature = data['main']['temp'],
+            description = data['weather'][0]['description'],
+            cloud = data['cloud']
+         })
 })
 
 
