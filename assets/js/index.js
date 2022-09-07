@@ -106,6 +106,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+        })
+        .catch(error => document.getElementById('main_container').innerHTML= error)
+    }
+
+
+
 
 })
 
