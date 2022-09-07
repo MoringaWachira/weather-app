@@ -14,7 +14,7 @@ This is a project creating a a weather app of differennt places in the world and
 * cd Weather<br>
 * Create the index.html,style.CSS and script.js 
 * Open index.html file on your browser
-# Live page
+# Live page moringawachira.github.io/weather-app/
 # License
 MIT License
 
