@@ -72,8 +72,18 @@ document.addEventListener('DOMContentLoaded', () => {
             wind = data['wind']['speed']
 
 
-            console.log(data)
+            console.log(data);
+            document.getElementById('city').innerHTML = `Region <br> <br> ${city}`
+            document.getElementById('temp').innerHTML = `Temperature <br> <br> ${Math.floor(temperature-273.15)}<sup>o<sup>C`
+            document.getElementById('description').innerHTML = `Description <br><br>${description}`
+            document.getElementById('clouds').innerHTML =cloud + '%'
+            document.getElementById('humidity').innerHTML=humidity + '%'
+            document.getElementById('wind').innerHTML=wind + 'km/hr'
+
+
+
          })
+        //  .catch(error => error)
 })
 
 
