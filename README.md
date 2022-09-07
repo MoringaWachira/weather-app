@@ -4,9 +4,9 @@ Silvia Wachira
 # Description
 This is a project creating a a weather app of differennt places in the world
 # Technologies Used
-*HTML<br>
-*CSS<br>
-*JavaScript
+*HTML to create the page stucture<br>
+*CSS to style the page<br>
+*JavaScript to make the page responsive
 # Set Up Instructions
 * Open the terminal command line[ctrl+alt+t]<br>
 * cd into Development
