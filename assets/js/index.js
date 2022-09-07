@@ -1,59 +1,6 @@
-// get API Key from openweather
-// "apikey": "087d2d5670b960565c41ce98b2fb0cfa"
-// const txt = document.querySelector('#text');
-// const btn = document.querySelector('#btn');
-// const showWeatherData = document.querySelector('.showWeatherData');
-
-// const API_Key = "087d2d5670b960565c41ce98b2fb0cfa";
-
-// add an event listener
-// get input value
-// const submit = document.getElementById('submit');
-// submit.addEventListener('submit', (e) => {
-
-// })
 
 
-// fetch API
-// fetch("https://api.openweathermap.org/data/2.5/weather?q=London&apikey=087d2d5670b960565c41ce98b2fb0cfa")
-// .then((res) => {
-//     if(res.ok){
-//     console.log("Success")
-// }else{
-//     console.log("Fail")
-// }
-// return res.json()
-// })
-// .then((weather) =>  fetchMyWeather(weather))
-// .catch((err) => console.log(err))
-
-// // fetch weather
-// function fetchMyWeather(weather) {
-//     console.log(weather) 
-// }
-
-// // On page load
-// document.addEventListener("DOMContentLoaded", ()=>{
-//     fetchMyWeather()
-// })
-// const form = document.querySelector("form")
-// form.addEventListener("submit", e => {
-//     e.preventDefault()
-    
-//     const valueOfCity = txt.value;
-//     return(valueOfCity);
-
-//     // fetch data from the API using GET
-//     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${valueOfCity}&apikey=087d2d5670b960565c41ce98b2fb0cfa`)
-//         .then(res => res.json())
-//         .then(data => {
-//              console.log(data);
-//     });
-// });
-
-
-
-// adding DOMContentLoaded
+// adding DOMContentLoaded on page load
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form')
 
@@ -123,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     })
 
-
+    // function addToDo
     function addToDo(task) {
         const ul = document.getElementById('list')
         const li = document.createElement('li')

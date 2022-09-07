@@ -1,74 +1,71 @@
+
 body {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/18/04/blue-1977898_960_720.jpg");
-    /* background-color: lightcyan;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    height: 90vh;
-    margin: o auto;
-    
-}
-
-#details {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-/* .heading {
-    margin-left: 600px;
-    margin-top: 70px;
-    font-size: 40px;
-} */
-
-/* .place {
-    font-size: 40px;
-    margin-top: 300px;
-    margin-left: 650px;
-} */
-/* .location {
-    font-size: 25px;
-   margin-top: 250px;
-   margin-bottom: 300px;
-    
-} */
-
-/* #text {
-    border-radius: 10px;
-    height: 35px;
-    margin-left: 650px;
-    margin-top: 150px;
-} */
-/* #btn {
-    border-radius: 10px;
-    height: 35px;
-    width: 100px;
-    color: white;
-    background-color: lightblue
-} */
-
-
-
-#container {
-    display: flex;
-    justify-content: space-around;
-    
-    
-}
-
-#weather-details {
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-    
-}
-
-#submit {
+    color: ;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+  }
+  #main_container { 
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('/assets/images/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  #left {
+    width: 60vw;
+  }
+  #right {
+    width: 30vw;
+    padding: 50px 30px;
+    border-left: 2px rgb(169, 167, 167) solid;
+  }
+  #left h2 {
+    height: 40vh;
+    text-align: center;
+  }
+  h4 {
+    height: 20vh;
+    text-align: center;
+  }
+  #weather_summary {
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    justify-content: space-evenly;
+  }
+  #weather_details {
+    display: flex;
+    justify-content: space-between;
+  }
+  input#search, #add {
+    background-color: blue;
     color: white;
-}
+    border-radius: 5px;
+  }
+  form {
+    margin-bottom: 50px;
+  }
+  #recommendations {
+    margin: 50px;
+    text-align: center;
+    color: gold;
+  } 
+  ul {
+  
+    text-align: left;
+  }
+  ul p {
+    font-size: larger;
+    color: white;
+  }
+  
+  /* #city, #clouds, #description, #temp, #humidity, #wind */
+  p {
+    font-size: larger;
+  }
+
+
 
 
 
