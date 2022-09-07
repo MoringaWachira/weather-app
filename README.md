@@ -2,7 +2,7 @@
 # Author
 Silvia Wachira
 # Description
-This is a project creating a aweather app of differennt places in the world
+This is a project creating a a weather app of differennt places in the world
 # Technologies Used
 *HTML<br>
 *CSS<br>
