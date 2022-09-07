@@ -52,6 +52,8 @@
 // });
 
 
+
+// adding DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form')
 
@@ -60,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         results(e.target.city_name.value)
         form.reset()
     })
-
+//    making a fetch request
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=nairobi&appid=087d2d5670b960565c41ce98b2fb0cfa`)
          .then(response => response.json())
          .then(data => {
@@ -71,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             humidity = data['main']['humidity'],
             wind = data['wind']['speed']
 
-
+                // logging the data
             console.log(data);
             document.getElementById('city').innerHTML = `Region <br> <br> ${city}`
             document.getElementById('temp').innerHTML = `Temperature <br> <br> ${Math.floor(temperature-273.15)}<sup>o<sup>C`
@@ -110,6 +112,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => document.getElementById('main_container').innerHTML= error)
     }
 
+
+
+    // todo list
+    const toDoForm = document.getElementById('tasksform')
 
 
 
