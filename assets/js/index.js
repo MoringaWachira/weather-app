@@ -84,6 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
          })
          .catch(error => error)
+
+    function results(cityName) {
+
+
+
 })
 
 
