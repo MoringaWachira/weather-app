@@ -67,7 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const city = data['name'],
             temperature = data['main']['temp'],
             description = data['weather'][0]['description'],
-            cloud = data['cloud']
+            cloud = data['cloud']['all'],
+            humidity = data['main']['humidity'],
+            wind = data['wind']['speed']
+
+
+            console.log(data)
          })
 })
 
