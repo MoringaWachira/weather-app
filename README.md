@@ -2,7 +2,7 @@
 # Author
 Silvia Wachira
 # Description
-This is a project creating a a weather app of differennt places in the world and allows the user to comment the activities they are interested in based on the weatger 
+This is a project creating a a weather app of differennt places in the world and allows the user to comment the activities they are interested in based on the weather 
 # Technologies Used
 *HTML to create the page stucture<br>
 *CSS to style the page<br>
@@ -14,7 +14,7 @@ This is a project creating a a weather app of differennt places in the world and
 * cd Weather<br>
 * Create the index.html,style.CSS and script.js 
 * Open index.html file on your browser
-# Live page
+# Live page https://moringawachira.github.io/weather-app/
 # License
 MIT License
 
