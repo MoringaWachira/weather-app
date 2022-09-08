@@ -9,7 +9,7 @@ body {
     height: 60vh;
     margin: 0 auto;
     display: flex;
-    background-image: url('assets/images/lake.jpg');
+    background-image: url('/images/lake.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-bottom: 5px solid gold;
