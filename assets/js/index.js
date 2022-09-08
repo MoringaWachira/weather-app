@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             humidity = data['main']['humidity'],
             wind = data['wind']['speed']
 
-                // logging the data
-            console.log(data);
+                
+            
             document.getElementById('city').innerHTML = `Region <br> <br> ${city}`
             document.getElementById('temp').innerHTML = `Temperature <br> <br> ${Math.floor(temperature-273.15)}<sup>o<sup>C`
             document.getElementById('description').innerHTML = `Description <br><br>${description}`
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             humidity = data['main']['humidity'],
             wind = data['wind']['speed']
 
-            console.log(data);
+            
             document.getElementById('city').innerHTML = `Region <br> <br> ${city}`
             document.getElementById('temp').innerHTML=`Temperature <br><br> ${Math.floor(temperature-273.15)}<sup>o</sup>C `
             document.getElementById('description').innerHTML=`Description <br><br>${description}`
@@ -74,12 +74,29 @@ document.addEventListener('DOMContentLoaded', () => {
     function addToDo(task) {
         const ul = document.getElementById('list')
         const li = document.createElement('li')
-        if(task === ' ') {
+        if(task === '') {
             return
         }
         li.innerText = task
+       
+
+        let btn = document.createElement('button')
+        li.appendChild(btn)
+        btn.innerText = ' clear '
         ul.appendChild(li)
+        handleDelete(btn)
     }
+
+
+    function handleDelete(clearbtn) {
+
+        clearbtn.addEventListener('click', () =>{
+        clearbtn.parentNode.remove()
+        console.log(clearbtn.parentNode)
+
+        })
+    }
+    
 
 })
 
